@@ -3,7 +3,7 @@ from config import OPENAI_API, LOG_CHANNEL, AI
 import openai
 import asyncio
 
-openai.api_key = "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"
+openai.api_key = "sk-proj-S3YnJUOl4qpKmwv09fuAT3BlbkFJnoJOQTp8yqFROfi70joU"
 
 async def send_message_in_chunks(client, chat_id, text):
     max_length = 4096  # Maximum length of a message
